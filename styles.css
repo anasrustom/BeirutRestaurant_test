@@ -647,6 +647,13 @@ span .two {
 
     }
     
+    .hidden4 {
+        opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+    transition: all 0s;
+    }
+
     .extend {
         height: calc(9% + 140px)
     }
