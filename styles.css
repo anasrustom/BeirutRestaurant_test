@@ -551,6 +551,8 @@ span .two {
     }
     .boop {
         flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-evenly;
         width: 100%;
         background-color: white;
     }
@@ -585,6 +587,12 @@ span .two {
         grid-template-columns: 1fr;
         align-items: center;
         justify-items: center;
+    }
+
+    .about-container img {
+        display: block;
+        width: 90%;
+        max-width: 650px;
     }
     /* About us  */
 
@@ -661,6 +669,8 @@ span .two {
         flex-direction: column;
         width: 100%;
         background-color: white;
+        justify-items: space-evenly;
+        align-items: space-evenly;
         margin-top: 20px;
     }
     .nav-div {
