@@ -557,7 +557,7 @@ span .two {
         background-color: white;
     }
     .nav-div {
-        display:none;
+        /* display:none; */
         width: 100%;
         text-align: center;
     }
@@ -663,7 +663,8 @@ span .two {
     }
 
     .extend {
-        height: 35vh
+        height: 30%;
+        overflow: auto;
     }
     .boop {
         flex-direction: column;
@@ -688,7 +689,8 @@ span .two {
     
     .logo {width:80%;
         min-width: 200px;
-        height: auto;}
+        height: auto;
+    z-index: 13;}
 
     .welcome {
         font-size: 3.5em;
